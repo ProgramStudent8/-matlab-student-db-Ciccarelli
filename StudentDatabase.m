@@ -8,7 +8,7 @@ classdef StudentDatabase
     methods
         function obj = init(obj, size)
             obj.size = size;
-            obj.studentList(obj.size) = Student(); % Preallocate space
+            obj.studentList(obj.size) = Student(); 
             obj.number_of_students = 0; % Reset number of students
         end 
 
