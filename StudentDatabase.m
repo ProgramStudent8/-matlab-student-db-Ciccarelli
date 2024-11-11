@@ -37,7 +37,7 @@ classdef StudentDatabase
         function obj = loadFromFile(obj, file_name)
             % Load database from .mat file
             loadedData = load(file_name);
-            obj = loadedData.obj; % Assuming 'obj' is the variable name in the saved file
+            obj = loadedData.obj; 
         end 
     end 
 end 
