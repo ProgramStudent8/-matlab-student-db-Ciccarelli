@@ -4,7 +4,7 @@ db = StudentDatabase();
 % Initialize the database with a size of 10
 db = db.init(10); 
 
-% Create and add sample students with a name, age, GPA, and major
+% Created and added sample students with a name, age, GPA, and major
 sample_students = {
     {"S001", "Alice", "Smith", 20, 3.5, "Computer Science"},
     {"S002", "Bob", "Book", 21, 3.6, "Mathematics"},
