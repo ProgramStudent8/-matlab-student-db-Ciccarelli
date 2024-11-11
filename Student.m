@@ -10,7 +10,7 @@ classdef Student
 
     methods
         function obj = Student(id, f_name, l_name, age, gpa, major)
-            if nargin > 0  % Check if inputs are provided
+            if nargin > 0  %  Make sure inputs are provided
                 obj.student_id = id;
                 obj.first_name = f_name;
                 obj.last_name = l_name;
